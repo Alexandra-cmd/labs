@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&family=Roboto:wght@100&display=swap');
+      label{font-family: 'Baloo Tammudu 2', cursive;};
+      hr {
+      border: none; /* Убираем границу */
+       background-color: red; /* Цвет линии */
+       color: red; /* Цвет линии для IE6-7 */
+        height: 2px; /* Толщина линии */
+   }
+       </style>
+       
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body class="body">
+      <br> 
+             <div class="form" id="form"> <div class="secform"><br><label class="label_style" ><font size="7"><u>Registration form</u></font></label> <br><br></div> 
+                 <br><br> <br> <br> <br><br>
+                 <label class="label_style" ><font size="5"><u>Child's information </u></font></label> <br>
+                 
+                 <label class="label_style" ><font size="3"> <i>Child's name</i></font></label> 
+                 <input type="text" id="name" placeholder="" name="name" class="persona"> 
+                 <br><br>
+                 
+                 <label for="date"  class="label_style" ><font size="3"><i>Date of birth</i></font></label> 
+                 <input type="date" id="date" placeholder="Date" name="date" class="another"><br>
+                 <br> <br> 
+
+                 <label for="nameS"  class="label_style" ><font size="3"><i>Name of school</i></font></label> 
+                 <input type="text" id="nameS" placeholder="" name="nameS" class="another_S"><br>
+                 <br> <br>
+
+
+                 <label for="grade"  class="label_style" ><font size="3"><i>Grade</i></font></label> 
+                 <input type="text" id="grade" placeholder="" name="grade" class="another_grade"><br>
+                 <br> <br>
+
+                 <label class="label_style" ><font size="5"><u>Parent/Guardian information </u></font></label> <br>
+
+                 <label class="label_style" ><font size="3"> <i>Parent/Guardian name</i></font></label> 
+                 <input type="text" id="nameP" placeholder="" name="nameP" class="persona_P"> 
+                 <br><br>
+
+                 <label class="label_style" ><font size="3"> <i>Email</i></font></label> 
+                 <input type="email" id="mail" placeholder="" name="mail" class="mail"> 
+                 <br><br>
+
+                 <label class="label_style" ><font size="3"> <i>Phone number</i></font></label> 
+                 <input type="number" id="phone" placeholder="" name="phone" class="phone"> 
+                 <br><br>
+
+                 <label class="label_style" ><font size="3"> <i>Home adress</i></font></label> 
+                 <input type="text" id="phone" placeholder="" name="phone" class="adr"> 
+                 <br><br>
+
+                 <label class="label_style" ><font size="5"><u>Medical history </u></font></label> <br>
+
+                 <label class="label_style" ><font size="3"> <i>Physician name</i></font></label> 
+                 <input type="text" id="nameP" placeholder="" name="nameP" class="phone"> 
+                 <br><br>
+
+
+                 <div>
+                 <label for="Blood"  class="label_radio" ><font size="3"><i>Blood group</i></font></label> 
+
+                 <input type="radio" name="Blood" id="Q_p" value="Q+" class="radio_o">
+                 <label  >Q+</label><br>
+                 <input type="radio"  name="Blood" id="Q_n" value="Q-" class="radio_n">
+                 <label >Q-</label><br>
+                 <input type="radio"  name="Blood" id="A_p" value="A+" class="radio_n">
+                 <label >A+</label><br>
+                 <input type="radio"  name="Blood" id="A_n" value="A-" class="radio_n">
+                 <label >A-</label><br>
+                 <input type="radio"  name="Blood" id="B_p" value="B+" class="radio_n">
+                 <label >B+</label><br>
+                 <input type="radio"  name="Blood" id="B_n" value="B-" class="radio_n">
+                 <label>B-</label><br>
+                 <input type="radio"  name="Blood" id="AB_p" value="AB+" class="radio_n">
+                 <label >AB+</label><br>
+                 <input type="radio"  name="Blood" id="AB_n" value="AB-" class="radio_n">
+                 <label >AB-</label><br>
+                <br> </div>
+
+                <div>
+                 <label for="Blood"  class="label_radio" ><font size="3"><i>Does ur have allergies</i></font></label> 
+                 <input type="radio"  name="agr" id="Yes" value="Yes" class="radio_o_s">
+                 <label >Yes</label><br>
+                 <input type="radio"  name="agr" id="No" value="No" class="radio_n_s">
+                 <label >No</label><br>
+                <br> </div>
+              <br>
+
+              <label for="Com"  class="label_style" ><font size="3"><i>Comment</i></font></label> 
+                 <input type="text" id="Com" placeholder="" name="Com" class="adr"><br>
+              <br>
+              
+              <div class="button">
+                <input  id="butt" onclick="myFunction()" type="submit" value="Confirm">
+               </div>  
+
+              </div>
+            
+            <div class="showusers">
+
+
+
+
+
+
+            </div>
+<br>
+            <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+.body{
+  background-color: rgb(255, 167, 36);
+}
+.form{
+  margin-top: 100px;
+  height: 2080px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  border-radius: 10px;
+  left: 650px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.5);
+}
+.secform{
+  height: 100px;
+  width: 700px;
+  background-color: rgb(255, 233, 205);
+  position: absolute;
+  border-radius: 10px;
+}
+.form input{
+  text-indent: 10px;
+  border-radius: 0px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.form input[type="checkbox"] {
+  margin: .4rem;
+}
+.persona{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  margin-left: 110px;
+}
+.persona_P{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  margin-left: 40px;
+}
+.mail{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  margin-left: 160px;
+}
+.adr{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  height: 300px;
+  margin-left: 110px;
+}
+.phone{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  margin-left: 100px;
+}
+.another{
+  height: 30px;
+  width: 400px;
+  margin-left: 110px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  
+}
+.another_S{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  margin-left: 90px;
+}
+.another_grade{
+  height: 30px;
+  border-color: rgb(201, 201, 201);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 1px;
+  width: 400px;
+  margin-left: 160px;
+}
+.radio_o{
+  margin-left: 130px;
+}
+.radio_n{
+  margin-left: 270px;
+}
+.radio_o_s{
+  margin-left: 60px;
+}
+.radio_n_s{
+  margin-left: 268px;
+}
+.label_style{
+  margin-left: 50px;
+  margin-right: 50;
+}
+.label_radio{
+  margin-left: 50px;
+}
+
+
+.button {
+  margin-bottom: 10px;
+}
+.button input[type="submit"] {
+  border-radius: 20px;
+  width:100px;
+  height: 40px;
+  margin-left: 550px;
+  margin-right: 34px;
+  margin-top: 10px;
+  text-align: center;
+  background: rgb(0, 116, 248);
+  cursor: pointer;
+  color: #fffdee;
+  text-transform: uppercase;
+  transition: 1s cubic-bezier(.165, .84, .44, 1);
+}
+.button input[type=submit]:hover {
+  background: #7161fd;
+}
+.showusers{
+  text-align: match-parent ;
+  margin-left: 10px;
+  position: absolute;
+  width: 300px;
+  background-color:rgb(255, 208, 0);
+  left: 1500px;
+  transition: 3s;
+  top: 100px;
+}
+
